@@ -6,12 +6,18 @@
 html {
     font-family: helvetica;
 }
-
+.cabecalho1{
+    display: inline;
+}
 
 header {
     background: #f59221;
     padding: 50px 0;
     }
+.imgcaptei{
+    width: 150px;
+    padding-left: 08px;
+}
 
 .caixa {
     font-weight: bolder;
@@ -19,6 +25,7 @@ header {
     text-align: center;
     width: 940px;
     margin: 20px auto;
+    
 }
 
 h1 {
@@ -34,20 +41,18 @@ nav a {
     width: 180px;
     height: 30px;
     background: #265cdc;
-    border-radius: 20px;
+    border-radius: 10px;
     padding-top: 10px;
-
 }
 
 nav a:hover {
-    background: #13EF1B
+    background: black;     
 }
 
 
 li:hover {
     font-size: 18px;
     font-weight: bold;
-
 }
 li {
     vertical-align: center;

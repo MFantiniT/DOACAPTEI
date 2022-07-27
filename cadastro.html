@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro - DOA CAPTEI</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="cadastro.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="caixa">    
+             <h1><img src="favicon.png" class="imgcaptei"></h1>
+               <nav> 
+                    <ul class="produtos">
+                     <li><a href="Index.html">Início</a></li>
+                     <li><a href="quemsomos.html">Quem somos</a></li>
+                     <li><a href="login.html">Entrar</a></li>
+                     <li><a href="contato.html">Contato</a></li>
+                    </ul>
+               </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome completo</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" class="input-padrao" id="password" required placeholder="mínimo 8 caracteres">
+                
+                <label for="confirmar-senha">Confirme sua senha</label>
+                <input type="password" id="confirmar-senha" class="input-padrao" id="confirm_password" required placeholder="Confirme sua senha">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx"> 
+                 
+                <p>Eu sou?</p>
+                <select>
+                    <option>Doador</option>
+                    <option>Donatário</option>
+                </select>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas campanhas por email?</label>
+               
+                <input type="submit" value="Enviar formulário">
+
+            </form>
+        </main>
+        <footer>
+           <p class="copyRight">&copy; CopyRight todos os direitos reservados 2021</p>
+        </footer>
+    </body>
+</html>

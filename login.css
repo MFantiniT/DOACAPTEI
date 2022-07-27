@@ -1,0 +1,83 @@
+header {
+    background: #f59221
+}
+.imgcaptei{
+    width: 220px;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+nav { 
+    position: absolute;
+  top: 110px;
+  right: 0
+}
+nav li{
+    display: inline; padding-left: 20px;
+    }
+    nav a {
+        text-transform: uppercase; 
+        color: #000000;
+        font-size: 20px; 
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+    nav a:hover{
+        color: white;
+        text-decoration:underline ;
+    }
+
+   
+    .produtos li{
+        display: inline-block;
+        padding-left: 20px;
+        
+    }
+    main{
+        width: 940px;
+        margin: 0 auto;
+    }
+    form{
+        margin: 40px 0;
+    }
+    form label, form p{
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px;
+
+    }
+   
+    .input-padrao {
+        display:block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }  
+    .button{
+        opacity:0.7;
+        width: 10%;
+    }
+    
+    .button:hover{
+        opacity:1;
+
+    }
+    .checkbox{
+        margin: 20px 0
+    }
+    
+
+    footer{
+        text-align: center;
+        background:#f59221;
+        padding: 40px 0;
+    }
+    .copyRight{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+    }
